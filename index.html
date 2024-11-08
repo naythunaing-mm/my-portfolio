@@ -60,7 +60,7 @@
 
       <nav id="navbar" class="nav-menu navbar englishText">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#home" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
@@ -71,7 +71,7 @@
 
       <nav id="navbar" class="nav-menu navbar japaneseText">
         <ul>
-            <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>ホーム</span></a></li>
+            <li><a href="#home" class="nav-link scrollto"><i class="bx bx-home"></i> <span>ホーム</span></a></li>
             <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>自己紹介</span></a></li>
             <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>履歴書</span></a></li>
             <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>ポートフォリオ</span></a></li>
@@ -90,76 +90,29 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section class="featured shadow-none bg-light rounded">
-    <div class="container">
+  <section class="shadow-none  mt-5" id="home" >
+    <div class="container-fluid p-5 bg-light rounded">
         <div class="row">
             <div class="col-12">
-                <article class="featured-post p-2">
-                    <div id="articleCarousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <!-- First Article Slide -->
-                            <div class="carousel-item active">
-                                <article class="featured-post">
-                                    <div class="featured-post-content mt-5">
-                                        <div class="featured-post-author">
-                                            <img style="width: 100px;height: 100px;" class="border border-info p-1" src="assets/img/author.png" alt="author" />
-                                            <p>By <span>Nay Thu Naing</span></p>
-                                        </div>
-                                        <a href="single-blog.html" class="featured-post-title">
-                                          JAVA/PHP Developer
-                                        </a>
-                                    </div>
-                                    <div class="featured-post-thumb">
-                                        <img src="assets/img/featured-post2.jpg" alt="feature-post-thumb" class="d-block w-100" />
-                                    </div>
-                                </article>
+                <div class="carousel-inner">
+                    <!-- First Article Slide -->
+                    <div class="carousel-item active">
+                        <article class="featured-post">
+                            <div class="featured-post-content mt-5">
+                                <div class="featured-post-author">
+                                    <img style="width: 100px;height: 100px;" class="border border-info p-1" src="assets/img/author.png" alt="author" />
+                                    <p class="text-dark">By <span class="text-dark">Nay Thu Naing</span></p>
+                                </div>
+                                <a href="single-blog.html" class="featured-post-title">
+                                  JAVA/PHP Developer
+                                </a>
                             </div>
-                            <!-- Second Article Slide -->
-                            <div class="carousel-item">
-                                <article class="featured-post">
-                                    <div class="featured-post-content mt-5">
-                                        <div class="featured-post-author">
-                                          <img style="width: 100px;height: 100px;" class="border border-info p-1" src="assets/img/author.png" alt="author" />
-                                            <p>By <span>Nay Thu Naing</span></p>
-                                        </div>
-                                        <a href="single-blog.html" class="featured-post-title">
-                                          JAVA/PHP Developer
-                                        </a>
-                                    </div>
-                                    <div class="featured-post-thumb">
-                                        <img src="assets/img/featured-post2.jpg" alt="feature-post-thumb" class="d-block w-100" />
-                                    </div>
-                                </article>
+                            <div class="featured-post-thumb">
+                                <img src="assets/img/featured-post2.jpg" alt="feature-post-thumb" class="d-block w-100" />
                             </div>
-                            <!-- Third Article Slide -->
-                            <div class="carousel-item">
-                                <article class="featured-post">
-                                    <div class="featured-post-content mt-5">
-                                        <div class="featured-post-author">
-                                            <img style="width: 100px;height: 100px;"class="border border-info p-1" src="assets/img/author.png" alt="author" />
-                                            <p>By <span>Nay Thu Naing</span></p>
-                                        </div>
-                                        <a href="single-blog.html" class="featured-post-title">
-                                          JAVA/PHP Developer
-                                        </a>
-                                    </div>
-                                    <div class="featured-post-thumb">
-                                        <img src="assets/img/featured-post3.jpg" alt="feature-post-thumb" class="d-block w-100" />
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                        <!-- Carousel Controls -->
-                        <a class="carousel-control-prev" href="#articleCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#articleCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        </article>
                     </div>
-                </article>
+                </div>
             </div>
         </div>
     </div>
@@ -689,8 +642,8 @@
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="詳細"><i class="bx bx-link"></i></a>
+              <a href="https://satt.jp/product/kenja-cloud/index.html" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="https://satt.jp/product/kenja-cloud/index.html" title="詳細"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
@@ -992,7 +945,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Portfolio</span></strong>
+        &copy; Copyright <strong><span>my Portfolio</span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
