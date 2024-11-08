@@ -6,9 +6,9 @@ I specialize in backend development with Java and PHP, building applications tha
 
 Skills
 Languages: Java, PHP, JavaScript
-Frameworks & Libraries: Spring Boot, Laravel, [mention others if applicable, like Hibernate or Symfony]
+Frameworks & Libraries: Spring Boot, Laravel, VUE, Angular.
 Database Technologies: MySQL, PostgreSQL
-Other Technologies: REST APIs, JSON, XML, MVC, [mention any specific tools, e.g., Git, Docker]
+Other Technologies: REST APIs, JSON, XML, MVC, Git.
 Soft Skills: Problem-solving, communication, teamwork, time management
 Projects
 Here’s a brief overview of some of my projects:
